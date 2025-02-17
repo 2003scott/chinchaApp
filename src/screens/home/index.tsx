@@ -25,7 +25,7 @@ const segundaRuta = () => {
 const terceraRuta = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
-            <Text>Tercera ruta</Text>
+            <Events />
         </ScrollView>
     )
 }
