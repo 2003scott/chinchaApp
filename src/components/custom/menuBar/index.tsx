@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import { format } from "date-fns";
 import { es } from "date-fns/locale/es";
+import { format } from "date-fns";
 
 export const MenuBar: React.FC = () => {
     const fechaActual = new Date();
