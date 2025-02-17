@@ -7,7 +7,7 @@ import { MenuBar } from '../../components/custom';
 const primeraRuta = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
-            <Text>Primera Ruta</Text>>
+            <Text>Primera Ruta</Text>
         </ScrollView>
     )
 }
@@ -58,7 +58,7 @@ export const HomeScreen = () => {
                         {...props}
                         indicatorStyle={{ backgroundColor: "#9A0518" }}
                         style={{ backgroundColor: "#ffff" }}
-                        labelStyle={{ color: "#514F4F", textTransform: "none", fontFamily: 'Poppins-Bold', fontSize: 12 }}
+                        // labelStyle={{ color: "#514F4F", textTransform: "none", fontFamily: 'Poppins-Bold', fontSize: 12 }}
                         activeColor="#9A0518" />
                 )} />
         </>
