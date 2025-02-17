@@ -8,6 +8,7 @@ const primeraRuta = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
             <Text>Primera Ruta</Text>
+            <Text>Primera Ruta</Text>
         </ScrollView>
     )
 }
