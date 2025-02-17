@@ -1,2 +1,2 @@
 
-export const API_URL = 'https://api.example.com';
+export const API_URL = 'https://dev.inel.app/mobileidat/api/v1';
