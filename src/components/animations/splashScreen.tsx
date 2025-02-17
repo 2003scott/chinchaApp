@@ -3,7 +3,7 @@ import { View, Image, StyleSheet } from "react-native"
 export const SplashScreen = () => {
     return (
         <View style={styles.container}>
-            <Image source={require('../assets/iconchincha.png')}/>
+            <Image source={require('../../assets/iconchincha.png')}/>
         </View>
     )
 }
@@ -13,6 +13,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#DD0E28',
     }
 })
