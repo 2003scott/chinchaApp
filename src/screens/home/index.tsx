@@ -3,6 +3,7 @@ import { useWindowDimensions, ScrollView, Text } from "react-native"
 import { TabView, SceneMap, TabBar } from "react-native-tab-view"
 import { MenuBar } from '../../components/custom';
 import { Notices } from './partials/Notices';
+import { Events } from './partials/Events';
 
 
 const primeraRuta = () => {
@@ -16,7 +17,7 @@ const primeraRuta = () => {
 const segundaRuta = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
-            <Text>Segunda ruta</Text>
+            <Events />
         </ScrollView>
     )
 }

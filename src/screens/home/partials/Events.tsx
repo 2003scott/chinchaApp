@@ -1,10 +1,10 @@
 import { ScrollView, Text } from "react-native"
 import { useFetch } from "../../../hooks/useFetch"
-import { CardNoticie } from "../../../components/custom"
+import { CardEvent } from "../../../components/custom"
 
-export const Notices = () => {
+export const Events = () => {
 
-    const { data, error, isLoading } = useFetch("/news")
+    const { data, error, isLoading } = useFetch("/news/others/events")
 
     if (isLoading) {
         return <Text>Cargando...</Text>
@@ -17,7 +17,7 @@ export const Notices = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
             {data.map((item: any, index: any) => (
-                <CardNoticie
+                <CardEvent
                     key={index}
                     date={item.date}
                     title={item.title}
