@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { useWindowDimensions, ScrollView, Text } from "react-native"
 import { TabView, SceneMap, TabBar } from "react-native-tab-view"
 import { MenuBar } from '../../components/custom';
+import { Notices } from './partials/Notices';
 
 
 const primeraRuta = () => {
     return (
         <ScrollView style={{ backgroundColor: "white" }}>
-            <Text>Primera Ruta</Text>
-            <Text>Primera Ruta</Text>
+            <Notices/>
         </ScrollView>
     )
 }

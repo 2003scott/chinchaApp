@@ -6,7 +6,7 @@ const fetchQuery = async (url: string) => {
     try {
         const response = await http.get(`${url}`)
         if (response.status === 200) {
-            return response.data
+            return response.data.result
         }
     } catch (error) {
         if (error instanceof AxiosError) {
